@@ -1,0 +1,70 @@
+.header-spacer{
+    width: 100%;
+    height: 100px;
+    margin: 0 0;
+    background-color: rgba(0, 51, 102, 1);
+}
+.header-container{
+    display: flex;
+    width: 100%;
+    margin: 0 0;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    height: 103px;
+    background-color: rgba(0, 51, 102, .7);
+}
+
+.header-logo-cont{
+    height: 70px;
+    width: 64px;
+}
+
+.hero-container{
+    background-size: 100% 100%;
+    width: 100%;
+    height: 855px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mission-cont{
+    width: 100%;
+    height: 612px;
+    display: flex;
+    background-image: url('../Images/cowboy.jpeg');
+    background-size: 100% 100%;
+}
+
+.mission-cont .mission-cover{
+    width: 100%;
+    height: 612px;
+    display: flex;
+    background-color: rgba(50,50,50,.5);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-cont .mission-cover .mission-title{
+    font-family: 'Lora', serif;
+    font-size: 54pt;
+    color: white;
+    margin-bottom: 0;
+}
+
+.mission-cont .mission-cover i{
+    color: white;
+}
+.mission-cont .mission-cover .mission-statement{
+    font-family: 'Lora', serif;
+    font-size: 16pt;
+    line-height: 30px;
+    color: white;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+}
